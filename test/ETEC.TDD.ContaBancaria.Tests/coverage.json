@@ -1,0 +1,64 @@
+{
+  "ETEC.TDD.ContaBancaria.dll": {
+    "C:\\Users\\Geovane\\source\\repos\\ETEC.TDD\\src\\ETEC.TDD.ContaBancaria\\Cliente.cs": {
+      "ETEC.TDD.ContaBancaria.Cliente": {
+        "System.String ETEC.TDD.ContaBancaria.Cliente::get_Titular()": {
+          "Lines": {
+            "9": 2
+          },
+          "Branches": []
+        },
+        "System.Void ETEC.TDD.ContaBancaria.Cliente::.ctor(System.String)": {
+          "Lines": {
+            "11": 2,
+            "12": 2,
+            "13": 2,
+            "14": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Geovane\\source\\repos\\ETEC.TDD\\src\\ETEC.TDD.ContaBancaria\\ContaCorrente.cs": {
+      "ETEC.TDD.ContaBancaria.ContaCorrente": {
+        "ETEC.TDD.ContaBancaria.Cliente ETEC.TDD.ContaBancaria.ContaCorrente::get_Cliente()": {
+          "Lines": {
+            "14": 2
+          },
+          "Branches": []
+        },
+        "System.Decimal ETEC.TDD.ContaBancaria.ContaCorrente::get_Saldo()": {
+          "Lines": {
+            "15": 8
+          },
+          "Branches": []
+        },
+        "System.Void ETEC.TDD.ContaBancaria.ContaCorrente::RealizarSaque(System.Decimal)": {
+          "Lines": {
+            "18": 1,
+            "19": 1,
+            "20": 1
+          },
+          "Branches": []
+        },
+        "System.Void ETEC.TDD.ContaBancaria.ContaCorrente::RealizarDeposito(System.Decimal)": {
+          "Lines": {
+            "23": 1,
+            "24": 1,
+            "25": 1
+          },
+          "Branches": []
+        },
+        "System.Void ETEC.TDD.ContaBancaria.ContaCorrente::.ctor(ETEC.TDD.ContaBancaria.Cliente)": {
+          "Lines": {
+            "9": 2,
+            "10": 2,
+            "11": 2,
+            "12": 2
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

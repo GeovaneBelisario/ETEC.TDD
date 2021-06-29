@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETEC.TDD.ContaBancaria", "src\ETEC.TDD.ContaBancaria\ETEC.TDD.ContaBancaria.csproj", "{E1A3EC0C-4CFB-4D1C-B8F1-D6B0F730BC21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FF8FE91B-4A0F-41A6-B44D-23C0D44FF177}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETEC.TDD.ContaBancaria.Tests", "test\ETEC.TDD.ContaBancaria.Tests\ETEC.TDD.ContaBancaria.Tests.csproj", "{B3DC1C7C-4D67-4485-8021-EDAF860355F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1A3EC0C-4CFB-4D1C-B8F1-D6B0F730BC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A3EC0C-4CFB-4D1C-B8F1-D6B0F730BC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A3EC0C-4CFB-4D1C-B8F1-D6B0F730BC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A3EC0C-4CFB-4D1C-B8F1-D6B0F730BC21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3DC1C7C-4D67-4485-8021-EDAF860355F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3DC1C7C-4D67-4485-8021-EDAF860355F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3DC1C7C-4D67-4485-8021-EDAF860355F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3DC1C7C-4D67-4485-8021-EDAF860355F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3DC1C7C-4D67-4485-8021-EDAF860355F9} = {FF8FE91B-4A0F-41A6-B44D-23C0D44FF177}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BF6CD5E-6047-4626-B790-71D728479C4D}
+	EndGlobalSection
+EndGlobal
